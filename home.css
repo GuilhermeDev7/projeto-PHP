@@ -1,0 +1,294 @@
+*{
+        padding: 0;
+        margin: 0;
+}
+
+body {
+
+
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        background-color: rgb(38, 46, 52);
+ 
+                
+            
+}
+
+.nav {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(254, 76, 0);
+}
+
+.nav ul {
+        width: 20%;
+     
+        display: flex;
+}
+
+.nav li {
+        display: flex;
+        color: #c2ffff;
+        font-size: 18px;
+       text-align: center;
+        margin-top: 50px;
+        transition: 1s;
+}
+
+.nav li :hover {
+        font-size: 25px;
+        transition: 1s;
+        
+}
+
+.nav  a {
+        color: #c2ffff;
+        font-weight: 500;
+        text-decoration: none;
+        background-color: rgb(38, 46, 52);
+        width: 58%;
+        height: 50px;
+        display: flex;
+        text-align: center;
+        border-radius: 20%;
+
+}
+
+
+
+.logo {
+        width: 10%;
+        border-radius: 100%;
+        display: flex;
+      
+}
+
+.empresa {
+        
+        padding-top: 40px;
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+}
+
+.empresa-titulo {
+        padding-top: 35px;
+        color: #c2ffff;
+        text-align: center;
+}
+
+.empresa-descricao {
+        text-align: justify;
+        padding: 15px 10rem;
+        color: #c2ffff;
+        font-size: 16px;
+        
+
+}
+
+.container-card {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+}
+
+.e {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        margin: 5px;
+}
+
+.card {
+        padding: 15px;
+        width: 30%;
+        border: 1px solid #c2ffff;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+ 
+}
+
+.card :hover {
+        width: 100%;
+        border: none;
+        
+        
+}
+
+.card p {
+        text-align: center;
+        color: #c2ffff;
+        height: 220px;
+        font-size: 16px;
+}
+
+.card h4 {
+        text-align: center;
+        color: #c2ffff;
+        font-size: 16px;
+}
+
+footer {
+        display: flex;
+       
+        margin-top: 25px auto;
+        background-color: rgb(254, 76, 0);
+        padding: 0;
+        color: #c2ffff;
+        width: 100%;
+}
+
+.footer {
+        width: 100%;
+        margin-top: 25px auto;
+        display: flex;
+        flex-direction: column;
+}
+
+.footer p {
+        display: flex;
+        margin-left: 60px;
+}
+
+
+
+@media (max-width: 932px) {
+        * {
+                margin: 0;
+                padding: 0;
+        }
+       body {
+        width: 100%;
+        margin: 0 auto;
+       
+       }
+        .nav {
+             
+                width: 100%;
+                background-color: rgb(254, 76, 0);
+        }
+
+
+        .nav ul {
+                
+                width: 80%;
+               padding: 9px;
+        }
+
+        .nav li {
+                text-align: center;
+                width: 70%;
+                padding: 5px;
+        }
+
+        .nav a {
+                color: #c2ffff;
+                width: 100%;
+                display: flex;
+                font-weight: 500;
+                text-decoration: none;
+                width: 100%;
+                background-color: rgb(38, 46, 52);
+                height: 60px;
+                text-align: center;
+                border-radius: 20%;
+                align-items: center; 
+                  
+             
+        }
+
+        .logo {
+                width: 10%;
+                height: 30px;
+
+        }
+
+        .empresa-titulo {
+                width: 100%;
+                text-align: center;
+          
+                
+
+        }
+
+        .empresa {
+                width: 95%;
+                  
+                
+        }
+
+        .empresa-descricao {
+                width: 88%;
+                margin: 0 auto;
+                text-align: justify;
+               padding: 0;
+        }
+
+        .container-card {
+                width: 80%;
+                display: flex;
+           
+              
+        }
+        
+      
+        
+        .card {
+        
+                width: 100%;
+                
+                cursor: pointer;
+         
+        }
+        
+        .card :hover {
+                width: 100%;
+                border: none;
+                
+                
+        }
+        .e {
+                width: 100%;
+                margin: 0 auto;
+        }
+        
+        .card p {
+                text-align: center;
+                color: #c2ffff;
+                height: 280px;
+                font-size: 16px;
+        }
+        
+        .card h4 {
+                text-align: center;
+                color: #c2ffff;
+                font-size: 16px;
+        }
+
+        footer {
+                display: flex;
+               
+               flex-wrap: wrap;
+                margin-top: 25px auto;
+                background-color: rgb(254, 76, 0);
+                color: #c2ffff;
+                width: 100%;
+        }
+        
+        .footer {
+                width: 100%;
+                margin-top: 25px auto;
+                display: flex;
+               
+        }
+        
+        .footer p {
+                display: flex;
+                margin-left: 60px;
+                width: 20%;
+        }
+        
+        
+}
